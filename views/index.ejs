@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alumni Tracking System</title>
+    
+    <!-- req for new navbar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei&family=Jomhuria&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- homepage's own css -->
     <link rel="stylesheet" href="/css/homepage.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
@@ -56,8 +63,8 @@
         </div>
     </div>
 
-    <!-- header and navigation begins -->
-    <header class="header">
+    <!-- Shivam's header and navigation begins -->
+    <!-- <header class="header">
         <div class="ats-logo-container">
             <img src="/img/logo.png" alt="Logo" class="ats-logo">
         </div>
@@ -79,8 +86,11 @@
                 </ul>
             </div>
         </nav>
-    </header>
-    <!-- header and navigation ends -->
+    </header> -->
+    <!-- Shivam's header and navigation ends -->
+
+    <!-- header -->
+    <%- include('partials/header') %>
 
     <!-- page 2 -->
     <section class="page-two">
@@ -141,8 +151,10 @@
                         Lorem Ipsum
                     </p>
                     <p class="box-para">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        <span class="mobile-clip">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                        </span>
                     </p>
                 </div>
             </div>
@@ -156,8 +168,10 @@
                         Lorem Ipsum
                     </p>
                     <p class="box-para">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        <span class="mobile-clip">
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.
+                        </span>
                     </p>
                 </div>
             </div>
@@ -172,7 +186,11 @@
                 <span>TOP </span>STORIES
             </p>
             <p class="stories-para">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                <span class="mobile-clip">
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown Lorem Ipsum is simply dummy text of.
+                </span>
             </p>
         </div>
         <div class="stories-container">
@@ -184,79 +202,96 @@
             </div>
             <div class="stories-box stories-box--1">
                 <div class="story-img">
-                    <img src="/img/top-stories.png" alt="">
+                    <img src="/img/page-three-convo.png" alt="">
                 </div>
                 <div class="story-text">
                     <p class="story-head">
                         Lorem Ipsum is simply dummy
                     </p>
                     <p class="story-para">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        <span class="mobile-clip">
+                            , when an unknown Lorem Ipsum is simply dummy text of.
+                        </span>
                     </p>
                 </div>
             </div>
             <div class="stories-box stories-box--2">
                 <div class="story-img">
-                    <img src="/img/top-stories.png" alt="">
+                    <img src="/img/page-three-convo.png" alt="">
                 </div>
                 <div class="story-text">
                     <p class="story-head">
                         Lorem Ipsum is simply dummy
                     </p>
                     <p class="story-para">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        <span class="mobile-clip">
+                            , when an unknown Lorem Ipsum is simply dummy text of.
+                        </span>
                     </p>
                 </div>
             </div>
             <div class="stories-box stories-box--3">
                 <div class="story-img">
-                    <img src="/img/top-stories.png" alt="">
+                    <img src="/img/page-three-convo.png" alt="">
                 </div>
                 <div class="story-text">
                     <p class="story-head">
                         Lorem Ipsum is simply dummy
                     </p>
                     <p class="story-para">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        <span class="mobile-clip">
+                            , when an unknown Lorem Ipsum is simply dummy text of.
+                        </span>
                     </p>
                 </div>
             </div>
             <div class="stories-box stories-box--4">
                 <div class="story-img">
-                    <img src="/img/top-stories.png" alt="">
+                    <img src="/img/page-three-convo.png" alt="">
                 </div>
                 <div class="story-text">
                     <p class="story-head">
                         Lorem Ipsum is simply dummy
                     </p>
                     <p class="story-para">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        <span class="mobile-clip">
+                            , when an unknown Lorem Ipsum is simply dummy text of.
+                        </span>
                     </p>
                 </div>
             </div>
             <div class="stories-box stories-box--5">
                 <div class="story-img">
-                    <img src="/img/top-stories.png" alt="">
+                    <img src="/img/page-three-convo.png" alt="">
                 </div>
                 <div class="story-text">
                     <p class="story-head">
                         Lorem Ipsum is simply dummy
                     </p>
                     <p class="story-para">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        <span class="mobile-clip">
+                            , when an unknown Lorem Ipsum is simply dummy text of.
+                        </span>
                     </p>
                 </div>
             </div>
             <div class="stories-box stories-box--6">
                 <div class="story-img">
-                    <img src="/img/top-stories.png" alt="">
+                    <img src="/img/page-three-convo.png" alt="">
                 </div>
                 <div class="story-text">
                     <p class="story-head">
                         Lorem Ipsum is simply dummy
                     </p>
                     <p class="story-para">
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<span class="mobile-clip">
+                            , when an unknown Lorem Ipsum is simply dummy text of.
+                        </span>
                     </p>
                 </div>
             </div>
@@ -266,57 +301,40 @@
         </div>
     </section>
     <!-- top stories ends -->
-    <!-- footer begins -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-nits-aa-container">
-                <div class="mobile-ats-logo-container">
-                    <img class="footer-ats-logo" src="/img/logo.png" alt="ATS Logo">
-                </div>
-                <div class="footer-nits-logo-container">
-                    <img class="footer-nits-logo" src="/img/nits-logo-white-text.png" alt="NITS Logo">
-                </div>
-                <div class="footer-contact-aa">
-                    <a href="">
-                        <h4 class="footer-heading footer-heading-aa">NIT Silchar Alumni Association</h4>
-                    </a>
-                    <a href="" class="footer-para"><span class="contact-symbol">&#x2709;</span>nitsaa@nits.ac.in</a>
-                    <p class="footer-para"><span class="fa fa-phone"></span>(+91) 25461-45021</p>
-                </div>
-            </div>
-            <div class="footer-about">
-                <h4 class="footer-heading">About</h4>
-                <a href="" class="footer-para">Rexian</a>
-                <a href="" class="footer-para">NIT Silchar</a>
-                <a href="" class="footer-para">Guest House</a>
-                <a href="" class="footer-para">FAQ</a>
-            </div>
-            <div class="footer-events">
-                <h4 class="footer-heading">Events</h4>
-                <a href="" class="footer-para">11th rexian meet</a>
-                <a href="" class="footer-para">Reunion of batch of 1994</a>
-                <a href="" class="footer-para">Reunion of batch of 1995</a>
-            </div>
-            <div class="footer-ats-col-container">
-                <div class="footer-ats-logo-container">
-                    <img class="footer-ats-logo" src="/img/logo.png" alt="ATS Logo">
-                </div>
-                <div class="footer-heading">
-                    <h4 class="">Alumni Tracking System</h4>
-                </div>
-            </div>
-        </div>
 
-        <div class="follow-us">
-            <a class="fa fa-linkedin" href="LinkedIn"></a>
-            <a class="fa fa-facebook" href="Facebook"></a>
-            <a class="fa fa-instagram" href="Instagram"></a>
-        </div>
-        <div class="footer-copyright">
-            © Copyright 2020
-        </div>
-    </footer>
-    <!-- footer-ends -->
+        <!-- contact us begins  -->
+        <section class="contact-us">
+            <div class="contact-title">
+                <p>
+                    Contact
+                    <span>Us</span>
+                </p>
+            </div>
+            <div class="form-container">
+                <form action="#" class="contact-form">
+                    <div class="form-group form-group-1">
+                        <input type="email" id="email" placeholder="Email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group form-group-2">
+                        <input type="text" id="name" placeholder="Full Name">
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="form-group form-group-3">
+                        <input type="subject" id="subject" placeholder="Subject">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <textarea name="message" id="message" class="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <div class="stories-more btn-submit">
+                        <a href="" class="btn-more">Submit</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- contact us ends -->
+ 
+   <!--footer -->
+   <%- include('partials/footer') %>
 
 </body>
 

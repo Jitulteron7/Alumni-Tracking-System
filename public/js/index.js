@@ -1,11 +1,3 @@
-//toggle navbar
-const toggleButton = document.getElementsByClassName('toggle-button')[0];
-            const navbarLinks = document.getElementsByClassName('navbar-links')[0];
-
-            toggleButton.addEventListener('click', () => {
-                navbarLinks.classList.toggle('active');
-            });
-
 // Top slider
 let slideIndex,
   slides = document.querySelectorAll(".image-container");
@@ -42,3 +34,22 @@ setInterval(function () {
   moveSlide();
 }, 5000);
 // top slider ends
+
+// navbar
+  function myFunction() {
+  var x = document.getElementById("IdNavbar");
+  if (x.className === "Navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "Navbar";
+  }
+  }
+// navbar
+
+//toggle navbar
+// const toggleButton = document.getElementsByClassName('toggle-button')[0];
+// const navbarLinks = document.getElementsByClassName('navbar-links')[0];
+
+// toggleButton.addEventListener('click', () => {
+//     navbarLinks.classList.toggle('active');
+// });
